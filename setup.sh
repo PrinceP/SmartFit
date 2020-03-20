@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Setup environment
-conda create -y --name smartfit python=2.7 pip
-source activate smartfit
-pip install -r requirements.txt
+#conda create -y --name smartfit python=2.7 pip
+#source activate smartfit
+#pip install -r requirements.txt
 
 # Clone repository for human parsing
 git clone https://github.com/RohanBhandari/LIP_JPPNet.git ./human_parsing/LIP_JPPNet/
